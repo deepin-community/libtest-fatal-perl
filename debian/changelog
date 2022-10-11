@@ -1,0 +1,136 @@
+libtest-fatal-perl (0.016-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+  * Import upstream version 0.016.
+  * Update versioned build dependencies.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Drop unneeded version constraints from (build) dependencies.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Bump debhelper-compat to 13.
+  * Add lintian override for false positive typo warning.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 11 Aug 2020 15:32:22 +0200
+
+libtest-fatal-perl (0.014-1) unstable; urgency=low
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.013, 0.014
+  * Drop build-dependency on libcapture-tiny-perl
+  * Add debian/upstream/metadata
+  * Update packaging copyright
+  * Declare compliance with Debian Policy 3.9.6
+  * Add autopkgtest header
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+ -- Florian Schlichting <fsfs@debian.org>  Wed, 17 Jun 2015 23:42:51 +0200
+
+libtest-fatal-perl (0.012-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.012
+  * Ship provided example test
+  * Add build-dependencies on Capture::Tiny and Test::More 0.96
+  * Bump Standards-Version to 3.9.4 (no change)
+  * Add myself to uploaders and copyright
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 19 Sep 2013 22:43:31 +0200
+
+libtest-fatal-perl (0.010-1) unstable; urgency=low
+
+  * Imported Upstream version 0.010
+  * Added myself to Uploaders and Copyright
+  * Updated Format url in d/copyright
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Fri, 17 Feb 2012 10:04:53 +0100
+
+libtest-fatal-perl (0.009-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Feb 2012 19:38:16 +0100
+
+libtest-fatal-perl (0.008-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 0.008
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 Nov 2011 11:00:24 +0100
+
+libtest-fatal-perl (0.006-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * debian/control: Drop build-dep on libtest-simple-perl as the new upstream
+    release now only requires 0.47 which is shipped with perl.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Mon, 06 Jun 2011 22:00:19 +0200
+
+libtest-fatal-perl (0.005-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: update years of packaging copyright.
+  * Set Standards-Version to 3.9.2 (no changes).
+  * Remove (build) dependency on perl 5.10, already satisfied by oldstable.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 27 Apr 2011 22:56:45 +0200
+
+libtest-fatal-perl (0.003-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+
+  [ gregor herrmann ]
+  * Build depend on libtest-simple-perl 0.96 now that it's available.
+
+  [ Maximilian Gass ]
+  * Increase debhelper compat level to 8
+  * Update copyright syntax
+
+ -- Maximilian Gass <mxey@cloudconnected.org>  Fri, 25 Feb 2011 16:10:30 +0100
+
+libtest-fatal-perl (0.001-1) unstable; urgency=low
+
+  * Initial release (closes: #601497).
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 26 Oct 2010 22:47:39 +0200
