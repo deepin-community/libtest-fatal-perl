@@ -1,14 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Test-Fatal
-Upstream-Contact: Ricardo Signes <rjbs@cpan.org>
+Upstream-Contact: Ricardo Signes <cpan@semiotic.systems>
 Source: https://metacpan.org/release/Test-Fatal
 
 Files: *
-Copyright: 2010, Ricardo Signes <rjbs@cpan.org>
+Copyright: 2010, Ricardo Signes <cpan@semiotic.systems>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2010-2020, gregor herrmann <gregoa@debian.org>
+Copyright: 2010-2023, gregor herrmann <gregoa@debian.org>
            2012, Fabrizio Regalli <fabreg@fabreg.it>
            2013-2015, Florian Schlichting <fsfs@debian.org>
 License: Artistic or GPL-1+

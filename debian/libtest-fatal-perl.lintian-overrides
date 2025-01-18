@@ -1,2 +1,2 @@
 # "isn't" is the name of a function
-libtest-fatal-perl: typo-in-manual-page usr/share/man/man3/Test::Fatal.3pm.gz isnt isn't
+libtest-fatal-perl: typo-in-manual-page isnt isn't [usr/share/man/man3/Test::Fatal.3pm.gz:*]

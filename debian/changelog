@@ -1,3 +1,22 @@
+libtest-fatal-perl (0.017-1) unstable; urgency=medium
+
+  * Import upstream version 0.017.
+  * Update upstream email address.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Refresh lintian override (formatting).
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 04 Jan 2023 19:23:55 +0100
+
+libtest-fatal-perl (0.016-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.1, no changes needed.
+  * Update standards version to 4.6.1, no changes needed.
+  * Apply multi-arch hints. + libtest-fatal-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 17:31:49 +0000
+
 libtest-fatal-perl (0.016-1) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]
